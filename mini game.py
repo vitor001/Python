@@ -3,7 +3,7 @@ numero = 89
 
 while True:  
     palpite = int(input('Tente acertar o numero: '))
-    if palpite == numero:  # verificação do código
+    if palpite == numero:  
         print('Parabens, voce acertou!')
         break
     else:
