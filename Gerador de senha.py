@@ -12,7 +12,7 @@ chave = input('Digite a base da sua senha: ')
 senha = ''
 
 for letra in chave:
-    if letra in "Aa":  # onde houver a letra 'Aa' na chave ocorrerá a substituição da letra por '3'
+    if letra in "Aa":  
         senha += '3'
     elif letra in "Dd":
         senha += '7'
